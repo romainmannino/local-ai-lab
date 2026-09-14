@@ -7,6 +7,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     { url: base, lastModified: '2026-09-14', changeFrequency: 'weekly', priority: 1 },
     { url: `${base}/discover`, lastModified: '2026-09-14', changeFrequency: 'weekly', priority: 0.8 },
+    { url: `${base}/intents/anniversaire-ado-interieur-jonage`, lastModified: '2026-09-14', changeFrequency: 'weekly', priority: 0.95 },
     ...places.map((p) => ({
       url: `${base}/lieux/${p.slug}`,
       lastModified: p.verifiedAt,
