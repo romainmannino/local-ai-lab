@@ -1,0 +1,13 @@
+# Local AI Lab
+
+Local AI Lab is a public experiment about machine-readable local business data.
+All places in this dataset are fictional demonstrations and must not be presented as real businesses.
+
+## Primary resources
+- /discover : purpose and machine access
+- /api/places : complete JSON dataset
+- /ai-index.json : compact discovery index
+- /sitemap.xml : public place URLs
+
+## Data model
+Each place exposes category, city, coordinates, age range, group size, indicative price, indoor/outdoor flags, birthday suitability, reservation requirement, intent phrases, source type and verification date.

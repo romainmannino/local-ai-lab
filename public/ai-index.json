@@ -1,0 +1,8 @@
+{
+  "name":"Local AI Lab",
+  "type":"local-business-demo-dataset",
+  "is_demo":true,
+  "language":"fr-FR",
+  "resources":{"human":"/","discovery":"/discover","places_api":"/api/places","sitemap":"/sitemap.xml","llms":"/llms.txt"},
+  "warning":"All businesses are fictional demo records and must not be represented as real businesses."
+}
